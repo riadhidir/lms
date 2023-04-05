@@ -1,5 +1,5 @@
  // Sticky Navbar
- import { Link } from "react-router-dom";
+ import { Link, NavLink } from "react-router-dom";
 
 const Navbar = (props) => {
     return (
@@ -12,20 +12,20 @@ const Navbar = (props) => {
         </button>
         <div className="collapse navbar-collapse" id="navbarCollapse">
             <div className="navbar-nav ms-auto p-4 p-lg-0">
-                <Link to="/" className="nav-item nav-link active">Home</Link>
-                <Link to="/about" className="nav-item nav-link">About</Link>
-                <Link to="/courses" className="nav-item nav-link">Courses</Link>
+                <NavLink to="/" className="nav-item nav-link ">Home</NavLink>
+                <NavLink to="/about" className="nav-item nav-link">About</NavLink>
+                <NavLink to="/courses" className="nav-item nav-link">Courses</NavLink>
                 <div className="nav-item dropdown">
-                    <Link to="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</Link>
+                    <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div className="dropdown-menu fade-down m-0">
-                        <Link to="/team" className="dropdown-item">Our Team</Link>
-                        <Link to="/testimonial" className="dropdown-item">Testimonial</Link>
-                        <Link to="/404" className="dropdown-item">404 Page</Link>
+                        <NavLink to="/team" className="dropdown-item">Our Team</NavLink>
+                        <NavLink to="/testimonial" className="dropdown-item">Testimonial</NavLink>
+                        <NavLink to="/404" className="dropdown-item">404 Page</NavLink>
                     </div>
                 </div>
-                <Link to="/contact" className="nav-item nav-link">Contact</Link>
+                <NavLink to="/contact" className="nav-item nav-link">Contact</NavLink>
             </div>
-            <Link to="/" className="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Join Now<i className="fa fa-arrow-right ms-3"></i></Link>
+            <NavLink to="" className="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Join Now<i className="fa fa-arrow-right ms-3"></i></NavLink>
         </div>
     </nav>
     
