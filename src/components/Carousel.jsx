@@ -31,8 +31,8 @@ const Carousel = () => {
 
                 <Splide aria-label="My Favorite Images" hasTrack={ false } options={slideOptions}>
                     <SplideTrack>
-                        <CarouselItem img={carousel_1}/>
-                        <CarouselItem img={carousel_2}/>
+                        <CarouselItem img={carousel_1} title="Get Educated Online From Your Home" text="Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea sanctus eirmod elitr."/>
+                        <CarouselItem img={carousel_2} title="The Best Online Learning Platform" text="Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea sanctus eirmod elitr."/>
                     </SplideTrack>
                 </Splide>
             {/* <div className="owl-carousel-item position-relative">
