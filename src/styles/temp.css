@@ -1,0 +1,12 @@
+li.is-active .testimonial-item  .testimonial-text{
+            background-color: #06bbcc !important;
+            transition: 1s ease-in-out;
+}
+
+.splide__pagination__page{
+    border-radius: 0 !important;
+    background-color: white !important;
+}
+.splide__pagination__page .is-active{
+   background-color: #06bbcc !important;
+}
