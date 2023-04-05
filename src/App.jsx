@@ -1,24 +1,40 @@
-import { useState } from 'react'
 
-// import  Components from '
-
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-import ServiceContainer from './components/ServiceContainer'
-import TeamContainer from './components/TeamContainer';
-import Carousel from './components/Carousel';
 import  "./styles/bootstrap.min.css";
 import "./styles/style.css";
+
+import {createBrowserRouter,RouterProvider} from "react-router-dom";
+import Home from './pages/Home'
+import About from "./pages/About";
+
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home/>,
+  },
+  {
+    path: "/about",
+    element: <About/>,
+  },
+  {
+    path: "/courses",
+    element: <Home/>,
+  },
+  {
+    path: "/testimonial",
+    element: <Home/>,
+  },
+
+]);
+
 function App() {
   
 
   return (
     <>
-      
-      {/* <ServiceContainer/>
-       */}
-     <Carousel/>
-      
+   
+    <RouterProvider router={router} />
+   
     </>
     
   )
