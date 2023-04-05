@@ -5,7 +5,7 @@ const ServiceItem = (props)=> {
 <div className="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div className="service-item text-center pt-3">
                         <div className="p-4">
-                            <i className="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
+                            <i className={`fa fa-3x ${props.icon} text-primary mb-4`}></i>
                             <h5 className="mb-3">{props.service}</h5>
                             <p>{props.text}</p>
                         </div>
