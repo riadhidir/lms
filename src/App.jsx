@@ -5,7 +5,7 @@ import "./styles/style.css";
 import {createBrowserRouter,RouterProvider} from "react-router-dom";
 import Home from './pages/Home'
 import About from "./pages/About";
-
+import Courses from "./pages/Courses"
 
 const router = createBrowserRouter([
   {
@@ -18,7 +18,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/courses",
-    element: <Home/>,
+    element: <Courses/>,
   },
   {
     path: "/testimonial",
