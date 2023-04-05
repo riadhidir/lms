@@ -10,3 +10,23 @@ li.is-active .testimonial-item  .testimonial-text{
 .splide__pagination__page .is-active{
    background-color: #06bbcc !important;
 }
+.splide__arrow {
+    background-color: transparent !important;
+}
+.splide__arrow svg {
+    /* stroke: white !important; */
+    /* background-color: white !important; */
+    -webkit-filter: invert(100%);
+}
+
+
+.splide__arrow:hover  {
+    /* stroke: red !important; */
+    background-color: #06bbcc !important;
+    /* -webkit-filter: invert(100%); */
+}
+
+.splide__pagination__page.is-active{
+    background-color: #06bbcc !important;
+
+}
