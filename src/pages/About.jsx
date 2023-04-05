@@ -1,12 +1,9 @@
 
 import Navbar from "../components/Navbar"
-
 import ServiceContainer from "../components/ServiceContainer"
 import Hero from "../components/Hero"
 import AboutContainer from "../components/AboutContainer"
-
 import TeamContainer from "../components/TeamContainer"
-
 import Footer from "../components/Footer"
 
 function About() {
