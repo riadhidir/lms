@@ -8,22 +8,18 @@ import ServiceContainer from './components/ServiceContainer'
 import TeamContainer from './components/TeamContainer';
 import CategoriesContainer from './components/CategoriesContainer'
 import CoursesContainer from './components/CoursesContainer'
-import TeamContainer from './components/TeamContainer'
-import TestimonialContainer from './components/TestimonialContainer'import  "./styles/bootstrap.min.css";
+import Hero from './components/Hero'
+import TestimonialContainer from './components/TestimonialContainer'
+import  "./styles/bootstrap.min.css";
 import "./styles/style.css";
 function App() {
   
 
   return (
     <>
-      
-      {/* <ServiceContainer/>
-      <CategoriesContainer/>
-<CoursesContainer/>
-<TeamContainer/>
-<TestimonialContainer/>
-       */}
-     <TeamContainer/>
+     
+    < Hero title="About Us" current= "About"/>
+     
       
     </>
     
