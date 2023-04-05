@@ -5,23 +5,26 @@ import { useState } from 'react'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import ServiceContainer from './components/ServiceContainer'
+import TeamContainer from './components/TeamContainer';
 import CategoriesContainer from './components/CategoriesContainer'
 import CoursesContainer from './components/CoursesContainer'
 import TeamContainer from './components/TeamContainer'
-import TestimonialContainer from './components/TestimonialContainer'
+import TestimonialContainer from './components/TestimonialContainer'import  "./styles/bootstrap.min.css";
+import "./styles/style.css";
 function App() {
   
 
   return (
     <>
-      <Navbar/>
-      <ServiceContainer/>
+      
+      {/* <ServiceContainer/>
       <CategoriesContainer/>
 <CoursesContainer/>
 <TeamContainer/>
 <TestimonialContainer/>
-     
-      <Footer/>
+       */}
+     <TeamContainer/>
+      
     </>
     
   )
