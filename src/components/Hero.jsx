@@ -1,5 +1,5 @@
 
-
+import { Link } from "react-router-dom";
 const Hero = (props)=> {
     return(
         
@@ -10,8 +10,8 @@ const Hero = (props)=> {
                     <h1 className="display-3 text-white animated slideInDown">{props.title}</h1>
                     <nav aria-label="breadcrumb">
                         <ol className="breadcrumb justify-content-center">
-                            <li className="breadcrumb-item"><a className="text-white" href="#">Home</a></li>
-                            <li className="breadcrumb-item"><a className="text-white" href="#">Pages</a></li>
+                            <li className="breadcrumb-item"><Link className="text-white" to="#">Home</Link></li>
+                            <li className="breadcrumb-item"><Link className="text-white" to="#">Pages</Link></li>
                             <li className="breadcrumb-item text-white active" aria-current="page">{props.current}</li>
                         </ol>
                     </nav>

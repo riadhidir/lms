@@ -5,7 +5,8 @@ import "./styles/style.css";
 import {createBrowserRouter,RouterProvider} from "react-router-dom";
 import Home from './pages/Home'
 import About from "./pages/About";
-import Courses from "./pages/Courses"
+import Testimonials from "./pages/Testimonials";
+
 
 const router = createBrowserRouter([
   {
@@ -22,7 +23,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/testimonial",
-    element: <Home/>,
+    element: <Testimonials/>,
   },
 
 ]);
