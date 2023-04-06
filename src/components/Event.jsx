@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Course  = (props) => {
 return(
     <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -5,8 +7,8 @@ return(
                     <div className="position-relative overflow-hidden">
                         <img className="img-fluid" src={props.img} alt="" />
                         <div className="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                            <a href="#" className="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style={{borderRadius: "30px 0 0 30px"}}>Read More</a>
-                            <a href="#" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{borderRadius: "0 30px 30px 0"}}>Join Now</a>
+                            <Link href="404" className="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style={{borderRadius: "30px 0 0 30px"}}>Read More</Link>
+                            <Link href="404" className="flex-shrink-0 btn btn-sm btn-primary px-3" style={{borderRadius: "0 30px 30px 0"}}>Join Now</Link>
                         </div>
                     </div>
                     <div className="text-center p-4 pb-0">

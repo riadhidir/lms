@@ -1,5 +1,6 @@
 import AboutItems from "./AboutItems";
 import about from "../assets/about.jpg"
+import {Link} from "react-router-dom";
 const AboutContainer = () => {
     return (
         <div className="container-xxl py-5">
@@ -23,7 +24,7 @@ const AboutContainer = () => {
                         <AboutItems content="Online Classes"/>
                         <AboutItems content="International Certificate"/>                       
                     </div>
-                    <a className="btn btn-primary py-3 px-5 mt-2" href="">Read More</a>
+                    <Link className="btn btn-primary py-3 px-5 mt-2" to="404">Read More</Link>
                 </div>
             </div>
         </div>

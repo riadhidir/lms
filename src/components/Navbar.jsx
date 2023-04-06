@@ -5,7 +5,7 @@ const Navbar = (props) => {
     return (
     <nav className="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
         <Link to="/" className="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <h2 className="m-0 text-primary"><i className="fa fa-book me-3"></i>eLEARNING</h2>
+            <h2 className="m-0 text-primary"><i className="fa fa-book me-3"></i>SkillBuilders </h2>
         </Link>
         <button type="button" className="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span className="navbar-toggler-icon"></span>
@@ -21,12 +21,12 @@ const Navbar = (props) => {
                         <NavLink to="/team" className="dropdown-item">Our Team</NavLink>
                         <NavLink to="/events" className="dropdown-item">Events</NavLink>
                         <NavLink to="/testimonial" className="dropdown-item">Testimonial</NavLink>
-                        <NavLink to="/404" className="dropdown-item">404 Page</NavLink>
+                        {/* <NavLink to="/404" className="dropdown-item">404 Page</NavLink> */}
                     </div>
                 </div>
                 <NavLink to="/contact" className="nav-item nav-link">Contact</NavLink>
             </div>
-            <NavLink to="" className="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Join Now<i className="fa fa-arrow-right ms-3"></i></NavLink>
+            <Link to="/404" className="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Join Now<i className="fa fa-arrow-right ms-3"></i></Link>
         </div>
     </nav>
     
