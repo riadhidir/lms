@@ -24,7 +24,7 @@ const ContactForm = (props)=> {
                 </div>
                 <div className="col-12">
                     <div className="form-floating">
-                        <textarea className="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
+                        <textarea className="form-control" placeholder="Leave a message here" id="message" style={{height: "150px"}}></textarea>
                         <label for="message">Message</label>
                     </div>
                 </div>

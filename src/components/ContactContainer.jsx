@@ -1,5 +1,6 @@
 import GetInTuch from "./GetInTuch";
 import Map from "./Map";
+import ContactForm from "./ContactForm"
 
 // import ContactForm from "./ContactForm"
 
@@ -14,9 +15,8 @@ const ContactContainer = (props) => {
 
                         <div className="row g-4">
                             <GetInTuch />
-                            
                             <Map />
-                            {/* <ContactForm /> */}
+                            <ContactForm /> 
 
 
                         </div>
