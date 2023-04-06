@@ -10,6 +10,7 @@ import Testimonials from "./pages/Testimonials";
 import Event from "./pages/Event";
 import Calendar from "./components/Calendar"
 import N_404 from "./pages/N_404";
+import Contact from './pages/Contact'
 
 const router = createBrowserRouter([
   {
