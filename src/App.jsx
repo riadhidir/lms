@@ -9,6 +9,7 @@ import Courses from "./pages/Courses"
 import Testimonials from "./pages/Testimonials";
 import Event from "./pages/Event";
 import Calendar from "./components/Calendar"
+import N_404 from "./pages/N_404";
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,9 @@ const router = createBrowserRouter([
     path: "/events",
     element: <Event/>
   }
+  ,{ 	path: '/404',
+   	element: <N_404/>}
+
 
 ]);
 
