@@ -1,6 +1,7 @@
 
 import  "./styles/bootstrap.min.css";
 import "./styles/style.css";
+import "../src/lib/animate/animate.min.css";
 
 import {createBrowserRouter,RouterProvider} from "react-router-dom";
 import Home from './pages/Home'
