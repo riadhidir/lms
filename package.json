@@ -11,6 +11,9 @@
   "dependencies": {
     "@coreui/coreui": "^4.2.6",
     "@coreui/react": "^4.7.0",
+    "@fullcalendar/core": "^6.1.5",
+    "@fullcalendar/daygrid": "^6.1.5",
+    "@fullcalendar/react": "^6.1.5",
     "@splidejs/react-splide": "^0.7.12",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

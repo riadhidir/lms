@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+
 const Course  = (props) => {
 return(
     <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -11,25 +12,19 @@ return(
                         </div>
                     </div>
                     <div className="text-center p-4 pb-0">
-                        <h3 className="mb-0">${props.price}</h3>
+                        <h3 className="mb-0">{props.title}</h3>
                         <div className="mb-3">
-                            <small className="fa fa-star text-primary"></small>
-                            <small className="fa fa-star text-primary"></small>
-                            <small className="fa fa-star text-primary"></small>
-                            <small className="fa fa-star text-primary"></small>
-                            <small className="fa fa-star text-primary"></small>
-                            <small>({props.raters})</small>
+                            <hr/>
                         </div>
-                        <h5 className="mb-4">{props.title}</h5>
+                        <h5 className="mb-4 h6">{props.description}</h5>
                     </div>
                     <div className="d-flex border-top">
                         <small className="flex-fill text-center border-end py-2"><i className="fa fa-user-tie text-primary me-2"></i>{props.tutor}</small>
+                        <small className="flex-fill text-center py-2"><i className="bi bi-calendar-week-fill me-2" style={{color: "#06bbcc"}}></i>{props.date} </small>    
                         <small className="flex-fill text-center border-end py-2"><i className="fa fa-clock text-primary me-2"></i>{props.duration}Hrs</small>
-                        <small className="flex-fill text-center py-2"><i className="fa fa-user text-primary me-2"></i>{props.availablePlaces} Students</small>
                     </div>
                 </div>
             </div>
 );
 }
-
 export default Course ;
