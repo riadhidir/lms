@@ -18,7 +18,7 @@ const Navbar = (props) => {
                 <div className="nav-item dropdown">
                     <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div className="dropdown-menu fade-down m-0">
-                        <NavLink to="/team" className="dropdown-item">Our Team</NavLink>
+                        {/* <NavLink to="/team" className="dropdown-item">Our Team</NavLink> */}
                         <NavLink to="/events" className="dropdown-item">Events</NavLink>
                         <NavLink to="/testimonial" className="dropdown-item">Testimonial</NavLink>
                         {/* <NavLink to="/404" className="dropdown-item">404 Page</NavLink> */}
